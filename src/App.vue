@@ -2,16 +2,20 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld message="Welcome to Your Vue.js App" />
+    <br />
+    <Message message="This page was made with vue.js"></Message>
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
+import Message from "./components/DynamicallyBoundMessage";
 
 export default {
   name: "App",
   components: {
     HelloWorld,
+    Message,
   },
 };
 </script>
