@@ -1,4 +1,4 @@
-# hellovue
+# FirstVueApp
 
 ## Project setup
 ```
